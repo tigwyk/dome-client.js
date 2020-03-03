@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
+    "build": "npm install",
     "start": "node client-app"
   },
   "dependencies": {
