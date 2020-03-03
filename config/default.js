@@ -31,7 +31,7 @@ module.exports = {
   // where it connects to
   'moo' : {
     'name' : 'EscapeFromTextov',
-    'host' : 'ec2-54-226-170-35.compute-1.amazonaws.com',
+    'host' : '54.226.170.35',
     'port' : 6666
   },
 
