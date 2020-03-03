@@ -6,7 +6,7 @@ module.exports = {
     'connectAnywhere': true,
 
 // if you set this to port 80, you must run the server as root
-    'port'         : 5555,
+    'port'         : 443,
 
 // specific ip is optional (if your server has more than one)
 //    'ip'           : '208.52.189.89',
@@ -30,9 +30,9 @@ module.exports = {
 
   // where it connects to
   'moo' : {
-    'name' : 'Sindome',
-    'host' : 'moo.sindome.org',
-    'port' : 5555
+    'name' : 'EscapeFromTextov',
+    'host' : 'ec2-54-226-170-35.compute-1.amazonaws.com',
+    'port' : 6666
   },
 
   // specialized autocomplete for each player class

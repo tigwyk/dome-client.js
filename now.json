@@ -1,0 +1,15 @@
+{
+  "name": "mooclient",
+  "env": {
+	  "NODE_ENV": "default"
+	  },
+  "alias":  "moo.tigwyk.com",
+ "files": [
+ "public",
+ "client-app.js",											 		 "config",
+ "less",
+ "lib",
+ "package.json",
+ "routes",
+ "views" ]
+}
