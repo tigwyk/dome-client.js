@@ -1,6 +1,6 @@
 module.exports = {
   'node' : {
-    'mode'         : 'production',
+    'mode'         : 'debug',
 // do you want your webclient to allow users to connect to any game => true
 // do you want your webclient to connect users only to your game => false
     'connectAnywhere': true,
