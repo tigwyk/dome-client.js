@@ -1,6 +1,5 @@
 {
 	  "version": 2,
-	    "builds": [{ "src": "client-app.js", "use": "@now/node-server" }],
 	    "routes": [{
 	    "headers": {
 		        "Access-Control-Allow-Origin": "*",
@@ -12,5 +11,10 @@
 	    }],
  	    "env": {
 		    "NODE_ENV": "@mooclient-env"
+	    },
+	    "functions": {
+		    "client-app.js": {
+			    "includeFiles": "views/**"
+		    }
 	    }
 }
