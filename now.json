@@ -7,14 +7,9 @@
 		        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
 		    },
 		    "src": "/.*",
-		    "dest": "/client-app.js"
+		    "dest": "/index.js"
 	    }],
  	    "env": {
 		    "NODE_ENV": "@mooclient-env"
-	    },
-	    "functions": {
-		    "client-app.js": {
-			    "includeFiles": "views/**"
-		    }
 	    }
 }
