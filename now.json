@@ -1,13 +1,19 @@
 {
 	  "version": 2,
+	  "builds": [
+		  {
+			  "src": "*.js",
+			  "use": "@now/node-server"
+		  }
+	  ],
 	    "routes": [{
 	    "headers": {
 		        "Access-Control-Allow-Origin": "*",
 		        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
 		        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
 		    },
-		    "src": "/.*",
-		    "dest": "/index.js"
+		    "src": "/(.*)",
+		    "use": "/client-app.js"
 	    }],
  	    "env": {
 		    "NODE_ENV": "@mooclient-env"
