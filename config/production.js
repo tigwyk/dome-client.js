@@ -1,6 +1,6 @@
 module.exports = {
   'node' : {
-    'mode'         : 'production',
+    'mode'         : 'debug',
 // do you want your webclient to allow users to connect to any game => true
 // do you want your webclient to connect users only to your game => false
     'connectAnywhere': true,
@@ -11,7 +11,7 @@ module.exports = {
 // specific ip is optional (if your server has more than one)
 //    'ip'           : '208.52.189.89',
 
-    'socketUrl'    : 'http://localhost:5555',
+    'socketUrl'    : 'https://localhost:5555',
     'socketUrlSSL' : '',
     'poweredBy'    : 'dome-client.js',
     'session'      : {

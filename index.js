@@ -19,7 +19,7 @@ var config     = require( './lib/config' ),
 
 
 var server  = http.createServer( app );
-var httpMgr = io.listen( , function() {
+var httpMgr = io.listen( server, function() {
   logger.info("socket.io listening to http");
 } );
 

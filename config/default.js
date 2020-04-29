@@ -11,7 +11,7 @@ module.exports = {
 // specific ip is optional (if your server has more than one)
 //    'ip'           : '208.52.189.89',
 
-    'socketUrl'    : 'http://localhost:5555',
+    'socketUrl'    : 'http://localhost:443',
     'socketUrlSSL' : '',
     'poweredBy'    : 'dome-client.js',
     'session'      : {
